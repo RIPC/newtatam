@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <meta charset="utf-8">
-    <title>Tatami</title>
+    <title>Регатачат</title>
     <meta name="author" content="Ippon Technologies">
     <link rel="shortcut icon" type="image/x-icon" href="/assets/img/company-logo.ico">
     <%= cssTags %>

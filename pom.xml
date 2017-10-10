@@ -33,8 +33,8 @@
         <url>https://github.com/ippontech/tatami/issues</url>
     </issueManagement>
     <scm>
-        <url>http://github.com/ippontech/tatami</url>
-        <connection>scm:git:git@github.com:ippontech/tatami.git</connection>
+        <url>https://github.com/RIPC/newtatam.git</url>
+        <connection>scm:git:git@github.com:RIPC/newtatam.git</connection>
     </scm>
 
     <profiles>
