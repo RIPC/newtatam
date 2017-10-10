@@ -46,7 +46,7 @@
                                     <goal>exec</goal>
                                 </goals>
                                 <configuration>
-                                    <executable>${project.npm.bin}/grunt</executable>
+                                    <executable>${project.npm.bin}/grunt.cmd</executable>
                                     <arguments>
                                         <argument>dev</argument>
                                     </arguments>
@@ -72,7 +72,7 @@
                                     <goal>exec</goal>
                                 </goals>
                                 <configuration>
-                                    <executable>${project.npm.bin}/grunt</executable>
+                                    <executable>${project.npm.bin}/grunt.cmd</executable>
                                     <arguments>
                                         <argument>minify</argument>
                                     </arguments>
@@ -152,7 +152,7 @@
                         <id>install-npm-dependencies</id>
                         <phase>generate-sources</phase>
                         <configuration>
-                            <executable>npm</executable>
+                            <executable>npm.cmd</executable>
                             <arguments>
                                 <argument>install</argument>
                             </arguments>
