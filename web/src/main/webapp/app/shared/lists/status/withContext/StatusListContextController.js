@@ -34,7 +34,7 @@ HomeModule.controller('StatusListContextController', [
         /* Begin Polling Related Code */
 
         $scope.newMessages = null;
-        $window.document.title = 'Tatami';
+        $window.document.title = 'Регатачат';
 
         if($scope.$state.is('tatami.home.home.timeline') ||
            $scope.$state.is('tatami.home.home.company')) {

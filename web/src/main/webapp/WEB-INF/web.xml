@@ -14,7 +14,7 @@
             -->
     </absolute-ordering>
 
-    <display-name>Tatami</display-name>
+    <display-name>Регатачат</display-name>
 
     <!-- All the Servlets and Filters are configured by this ServletContextListener : -->
     <listener>
