@@ -14,7 +14,7 @@
                                 <small ng-if="status.type == 'SHARE'">
                                     <span class="glyphicon glyphicon-retweet">&nbsp;</span>
                                     <a ui-sref="tatami.home.profile.statuses({ username: status.username })">
-                                        <span class="text-muted">@{{ status.sharedByUsername }}</span>
+                                        <span class="text-muted">{{ status.sharedByUsername }}</span>
                                     </a>
                                     <span translate="tatami.home.status.shared"></span>
                                     <br>
@@ -59,13 +59,13 @@
                                 <span class="glyphicon glyphicon-bullhorn">
                                     {{ 'tatami.home.status.isAnnounced' | translate }}
                                 </span>
-                                <a ui-sref="tatami.home.status({ statusId: status.sharedByUsername })">@{{ status.sharedByUsername }}</a>
+                                <a ui-sref="tatami.home.status({ statusId: status.sharedByUsername })">{{ status.sharedByUsername }}</a>
                             </small>
 
                             <small ng-if="status.replyTo && status.type !== 'ANNOUNCEMENT'">
                                 <span class="glyphicon glyphicon-share-alt"></span>
                                 <span translate="tatami.home.status.replyTo"></span>
-                                <a ui-sref="tatami.home.status({ statusId: status.replyTo })">@{{ status.replyToUsername }}</a>
+                                <a ui-sref="tatami.home.status({ statusId: status.replyTo })">{{ status.replyToUsername }}</a>
                                 <br>
                             </small>
 
