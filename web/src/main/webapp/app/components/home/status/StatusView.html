@@ -23,7 +23,7 @@
                                 <span ng-if="status.type == 'MENTION_FRIEND'" class="glyphicon glyphicon-user">&nbsp;</span>
                                 <a ui-sref="tatami.home.profile.statuses({ username: status.username })">
                                     <strong>{{ status.firstName + ' ' + status.lastName }}</strong>
-                                    <small>@{{ status.username }}</small>
+                                    <small>{{ status.username }}</small>
                                 </a>
                                 <span ng-if="status.type == 'MENTION_SHARE'" translate="tatami.home.status.sharedYour"></span>
                                 <span ng-if="status.type == 'MENTION_FRIEND'" translate="tatami.home.status.followed"></span>
