@@ -32,7 +32,7 @@ HomeModule.controller('StatusListController', [
         /* Begin Polling Related Code */
 
         $scope.newMessages = null;
-        $window.document.title = 'Tatami';
+        $window.document.title = 'Регатачат';
 
         var requestNewStatuses = function() {
             // In milliseconds

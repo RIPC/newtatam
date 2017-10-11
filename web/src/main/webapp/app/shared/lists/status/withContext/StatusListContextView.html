@@ -180,6 +180,10 @@
                                     <small> · </small>
                                     <!-- Replace hover title with hover bubble -->
                                     <a ui-sref="tatami.home.status({ statusId: status.statusId })">
+                                        <small ng-if="!isOneDayOrMore(statusBlock.status.statusDate) && getLanguageKey() == 'ru'" title="{{ statusBlock.status.statusDate | amDateFormat:'h:mm A / D MMM YYYY' }}" am-time-ago="statusBlock.status.statusDate"></small>
+                                        <small ng-if="isOneDayOrMore(statusBlock.status.statusDate) && getLanguageKey() == 'ru'" title="{{ statusBlock.status.statusDate | amDateFormat:'h:mm A / D MMM YYYY' }}">{{ statusBlock.status.statusDate | amDateFormat:'MMM D' }}</small>
+
+
                                         <!--English-->
                                         <small ng-if="!isOneDayOrMore(status.statusDate) && getLanguageKey() == 'en'" title="{{ status.statusDate | amDateFormat:'h:mm A - D MMM YYYY' }}" am-time-ago="status.statusDate"></small>
                                         <small ng-if="isOneDayOrMore(status.statusDate) && getLanguageKey() == 'en'" title="{{ status.statusDate | amDateFormat:'h:mm A - D MMM YYYY' }}">{{ status.statusDate | amDateFormat:'MMM D' }}</small>
