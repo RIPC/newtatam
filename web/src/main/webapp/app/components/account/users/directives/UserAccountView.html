@@ -19,7 +19,7 @@
         <br>
         <a ui-sref="tatami.home.profile.statuses({ username: user.username })">
             <small>
-                @{{ user.username }}
+                {{ user.username }}
             </small>
         </a>
         <span ng-click="deactivate(user)" ng-show="isAdmin && user.activated && !user.you" class="pointer pull-right label label-danger">
