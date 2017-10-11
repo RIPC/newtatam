@@ -17,7 +17,7 @@
                                         <h3 class="user-profile">{{ profile.firstName + ' ' + profile.lastName }}</h3>
                                     </a>
                                     <a ui-sref="tatami.home.profile.statuses({ username: profile.username })">
-                                        <p>@{{ profile.username }}</p>
+                                        <p>{{ profile.username }}</p> <!-- deleted "at" under avatar -->
                                     </a>
                                 </div>
                             </div>
