@@ -6,13 +6,13 @@ TatamiApp.config(['$translateProvider', function($translateProvider) {
             'error': 'An error has occurred.',
 
             'welcome': {
-                'title': 'Welcome to Tatami',
-                'message': 'Your timeline is empty! Do you need help to learn how to use Tatami? Please click on the button below to launch a presentation.',
+                'title': 'Welcome to Регатачат!',
+                'message': 'Your timeline is empty! Do you need help to learn how to use Регатачат? Please click on the button below to launch a presentation.',
                 'presentation': 'Launch presentation',
                 'help': {
                     'title': 'Help',
                     'line1': 'Welcome to the online help!',
-                    'line2':' Follow the next steps for a tour of the main Tatami features.'
+                    'line2':' Follow the next steps for a tour of the main Регатачат features.'
                 },
                 'timeline': {
                     'title': 'Timeline',
@@ -40,12 +40,12 @@ TatamiApp.config(['$translateProvider', function($translateProvider) {
                 },
                 'trends': {
                     'title': 'Trends',
-                    'line1': 'This list represents the #hashtags that are currently the most often used on Tatami. Use this to discover what\'s going on and what are the hottest topics on Tatami!'
+                    'line1': 'This list represents the #hashtags that are currently the most often used on Регатачат. Use this to discover what\'s going on and what are the hottest topics on Регатачат!'
                 },
                 'whoToFollow': {
                     'title': 'Who To Follow',
                     'line1': 'This is a list of users who share common interests with you and who you could follow.',
-                    'line2': 'If you are a new user, this list is probably empty. Tatami needs some time to learn who you are in order to suggest relevant users.',
+                    'line2': 'If you are a new user, this list is probably empty. Регатачат needs some time to learn who you are in order to suggest relevant users.',
                     'line3': 'And don\'t forget to use #hashtags in your messages. It makes everything easier!'
                 },
                 'next': 'Next',
@@ -56,7 +56,7 @@ TatamiApp.config(['$translateProvider', function($translateProvider) {
             // Login View
             'login': {
                 'title': 'Login',
-                'mainTitle': 'Welcome to Tatami',
+                'mainTitle': 'Welcome to Регатачат!',
                 'subtitle': 'An open source enterprise social network',
                 'moreInfo': 'More Info',
                 'email': 'Email',
@@ -67,19 +67,19 @@ TatamiApp.config(['$translateProvider', function($translateProvider) {
                 'tos': 'Terms of Service',
                 'fail': 'Your authentication has failed! Are you sure you used the correct password?',
                 'passwordEmailSent': 'An email has been sent to you, with instructions to generate a new password.',
-                'unregisteredEmail': 'This email address is not registered in Tatami.',
+                'unregisteredEmail': 'This email address is not registered in Регатачат.',
                 'registrationFailure': 'User registration failed. That email already is in use.',
                 'register': {
                     'title': 'Register',
                     'line1': 'A confirmation email will be sent to the address you provide.',
                     'line2': "Your email's domain will determine the company space you join. For example, users with an email@ippon.fr address will join Ippon's private space.",
-                    'line3': "If you are the first employee of your company to join Tatami, your company's private space will be automatically created."
+                    'line3': "If you are the first employee of your company to join Регатачат, your company's private space will be automatically created."
                 },
                 'googleApps': {
                     'title': 'Google Apps Login',
                     'line1': 'This feature is for Google Apps for Work users, who have their work domain name managed by Google Apps.',
                     'link': 'For more information on Google Apps for Work click here.',
-                    'line2': 'Whether or not you already have a Tatami account, you can sign in with your Google Apps account.',
+                    'line2': 'Whether or not you already have a Регатачат account, you can sign in with your Google Apps account.',
                     'line3': "Your email will be provided by Google and your email's domain name will be used to allow you to join your company's private space.",
                     'login': 'Login using Google Apps'
                 },
@@ -92,7 +92,7 @@ TatamiApp.config(['$translateProvider', function($translateProvider) {
             'about': {
                 // Presentation Page
                 'presentation': {
-                    'title': 'What is Tatami?',
+                    'title': 'What is Регатачат',
                     'devices': 'Devices',
                     'openSource': 'Open Source',
                     'row1': {
@@ -126,7 +126,7 @@ TatamiApp.config(['$translateProvider', function($translateProvider) {
                     },
                     'row4': {
                         'title': "Also available in SaaS mode, fully managed by Ippon Technologies",
-                        'line1': "If you do not want to install Tatami in your company, it's easy to use directly",
+                        'line1': "If you do not want to install Регатачат in your company, it's easy to use directly",
                         'line2': 'Secured multi-enterprise mode: every company has its own private space',
                         'line3': '256 bits SSL encryption: all data transfers are fully secured'
                     },
@@ -161,7 +161,7 @@ TatamiApp.config(['$translateProvider', function($translateProvider) {
                 //Top Menu
                 'menu': {
                     'logo': 'Ippon Technologies Logo',
-                    'title': 'Tatami',
+                    'title': 'Регатачат',
                     'about': {
                         'title': 'About',
                         'version' : 'Version',
@@ -175,7 +175,7 @@ TatamiApp.config(['$translateProvider', function($translateProvider) {
                         'license': 'Source Code License',
                         'github': {
                             'issues': 'Submit a Bug Report',
-                            'fork': 'Fork Tatami on Github'
+                            'fork': 'Fork Регатачат on Github'
                         },
                         'ippon': {
                             'website': 'Ippon Technologies Website',
@@ -923,7 +923,7 @@ TatamiApp.config(['$translateProvider', function($translateProvider) {
     });
 
     $translateProvider.useCookieStorage();
-    $translateProvider.registerAvailableLanguageKeys(['en', 'fr']);
+    $translateProvider.registerAvailableLanguageKeys(['en', 'fr','ru']);
     $translateProvider.fallbackLanguage('en');
     $translateProvider.determinePreferredLanguage();
 }]);
